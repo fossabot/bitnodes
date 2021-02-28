@@ -1,4 +1,5 @@
 ![Bitnodes](https://bitnodes.io/static/img/bitnodes-github.png "Bitnodes")
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhierarchy-orbit%2Fbitnodes.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhierarchy-orbit%2Fbitnodes?ref=badge_shield)
 
 Bitnodes is currently being developed to estimate the size of the Bitcoin network by finding all the reachable nodes in the network. The current methodology involves sending [getaddr](https://en.bitcoin.it/wiki/Protocol_specification#getaddr) messages recursively to find all the reachable nodes in the network, starting from a set of seed nodes. Bitnodes uses Bitcoin protocol version 70001 (i.e. >= /Satoshi:0.8.x/), so nodes running an older protocol version will be skipped.
 
@@ -15,3 +16,7 @@ Bitnodes is currently being developed to estimate the size of the Bitcoin networ
 See [Provisioning Bitcoin Network Crawler](https://github.com/ayeowch/bitnodes/wiki/Provisioning-Bitcoin-Network-Crawler) for steps on setting up a machine to run Bitnodes. The [Redis Data](https://github.com/ayeowch/bitnodes/wiki/Redis-Data) contains the list of keys and their associated values that are written by the scripts in this project. If you wish to access the data, e.g. network snapshots, collected using this project, see [Bitnodes API v1.0](https://bitnodes.io/api/).
 
 [![CircleCI](https://circleci.com/gh/ayeowch/bitnodes.svg?style=svg)](https://circleci.com/gh/ayeowch/bitnodes)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhierarchy-orbit%2Fbitnodes.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhierarchy-orbit%2Fbitnodes?ref=badge_large)
